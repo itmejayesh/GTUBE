@@ -5,7 +5,6 @@ import { BsFillCheckCircleFill } from "react-icons/bs";
 import VL from "../shared/Videolength";
 
 const VideoCard = ({ video }) => {
-  console.log(video?.thumbnails[0]?.url);
   return (
     <Link to={`/video/${video?.videoId}`}>
       <div className="flex flex-col mb-8 text-white">
